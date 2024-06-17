@@ -1,0 +1,59 @@
+/* styles.css */
+
+/* Estilos para el body */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('camiones.jpg'); /* Reemplaza 'camiones.jpg' con tu imagen de fondo */
+    background-size: cover; /* Cubrir toda la pantalla */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar repetición */
+    height: 100vh; /* Altura del 100% del viewport */
+    margin: 0; /* Eliminar márgenes */
+    display: flex; /* Para centrar verticalmente */
+    justify-content: center; /* Para centrar horizontalmente */
+    align-items: center; /* Para centrar verticalmente */
+}
+
+/* Estilos para el formulario */
+form {
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+form h2 {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input[type="text"],
+form input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049; /* Verde más oscuro al hacer hover */
+}
